@@ -15,7 +15,7 @@ st.caption("Interactive analysis of the iFood customer dataset")
 # -----------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("ifood_df(1).csv")
+    return pd.read_csv("ifood_df.csv")
 
 df = load_data().copy()
 
